@@ -1,0 +1,13 @@
+spring:
+  main:
+    banner-mode: "off"
+  jpa:
+    open-in-view: false
+
+logging:
+  level:
+    root: WARN
+    org.springframework: WARN
+    org.hibernate: WARN
+    org.apache.tomcat: WARN
+    org.springdoc.core.events.SpringDocAppInitializer: OFF
